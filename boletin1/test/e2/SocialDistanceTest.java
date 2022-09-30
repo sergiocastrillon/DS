@@ -153,4 +153,8 @@ class SocialDistanceTest {
 
         assertThrows(IllegalArgumentException.class, () -> SocialDistance.seatingPeople(null));
     }
+
+    @Test
+    void seatingPeople() {
+    }
 }
